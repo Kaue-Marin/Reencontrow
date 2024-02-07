@@ -23,7 +23,7 @@ Se você tem interesse em contribuir para o projeto Reencontrow, sinta-se à von
 
 ## Autor
 
-- [Seu Nome](https://github.com/seu-username)
+- [Kauê Marin](https://github.com/Kaue-Marin)
 
 ## Licença
 
