@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #15161b;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 35px;
+}
+
+.logo-header {
+  font-size: 22px;
+  color: #fff;
+}
+
+.cor-logo {
+  color: #1a7993;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.section-1 {
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+.main-content-description {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+.main-content-description-2 {
+  margin-top: 5px;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+.main-content-link {
+  padding: 15px 60px;
+  text-decoration: none;
+  color: #fff;
+  background: #1a7993;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+.main-content-link:hover {
+  background: #348297;
+  transition: 0.4s ease-in-out;
+}
+
+.imagem-section-2 {
+  width: 360px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.cards-title {
+  margin-bottom: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 180px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2c2f37;
+  justify-content: center;
+  font-family: "Oswald";
+  font-size: 18px;
+  gap: 20px;
+  color: #fff;
+  font-family: "oswald" sans-serif;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #1a7993;
+}
+
+.anuncio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a7993;
+  height: auto;
+  margin-bottom: 220px;
+}
+
+.anuncio-content {
+  margin-right: 120px;
+  color: #fff;
+  margin-top: -30px;
+}
+
+.anuncio-content-description {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  margin-bottom: 7px;
+}
+
+.anuncio-content-description-2 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.imagem-3 {
+  width: 210px;
+  margin-bottom: -4px;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+
+.anuncio-content-link {
+  padding: 15px 60px;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "oswald", sans-serif;
+  transition: 0.7s;
+}
+
+.anuncio-content-link:hover {
+  background: rgb(230, 228, 228);
+}
+
+.formulario-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.form-description {
+  color: #fff;
+  margin-top: 5px;
+  font-family: "Oswald", sans-serif;
+  font-size: 23px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.form input {
+  padding: 15px;
+  font-family: "oswald", sans-serif;
+  color: #000;
+  outline: 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.form input::placeholder {
+  display: flex;
+  justify-content: flex-start;
+  color: #000;
+}
+
+input[type="submit"] {
+  background: #1a7993;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e6994;
+}
